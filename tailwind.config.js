@@ -5,7 +5,13 @@ module.exports = {
  
   theme: {
     colors: {
-      'primary': 'blue',
+      'blue': {DEFAULT:'#02458F'},
+      'orenge': {DEFAULT:'#FFAD00'},
+    },screens: {
+      sm: '350px',
+      md: '620px',
+      lg: '976px',
+      xl: '1440px',
     },
   
     extend: {

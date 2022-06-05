@@ -1,11 +1,12 @@
-import './App.css';
-import Header from './components/header/header'
+import Header from './components/header'
+import React from 'react'
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <header>
+
         <Header></Header>
       </header>
       <h1 className="text-3xl font-bold underline">
