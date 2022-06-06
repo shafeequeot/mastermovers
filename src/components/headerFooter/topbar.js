@@ -3,7 +3,7 @@ import { FaWhatsapp, FaPhoneVolume, FaEnvelope, FaFacebookF, FaInstagram } from 
 function topbar() {
   return (
 
-    <div className=" bg-orenge  h-6 shadow-lg   hidden md:block">
+    <div className=" bg-orenge  h-6 shadow-lg hidden md:block">
       <div className='container mx-auto flex flex-row justify-between items-center'>
         <div className='flex flex-row space-x-4 items-center'>
           <div className='flex flex-row items-center'>

@@ -7,6 +7,7 @@ module.exports = {
     colors: {
       'blue': {DEFAULT:'#02458F'},
       'orenge': {DEFAULT:'#FFAD00'},
+      'white': '#ffffff',
     },screens: {
       sm: '350px',
       md: '620px',
@@ -14,9 +15,7 @@ module.exports = {
       xl: '1440px',
     },
   
-    extend: {
-     
-    },
+
   },
   plugins: [],
 }
