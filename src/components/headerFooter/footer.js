@@ -6,8 +6,8 @@ import  {RiFacebookCircleLine, RiInstagramLine, RiLinkedinFill} from 'react-icon
 
 function Footer() {
   return (
-    <div className=' bg-blue w-full border-t-4 border-orenge bottom-0 fixed'>
-      <div className='container m-auto flex md:flex-row sm:flex-col gap-8 space-y-4 '>
+    <div className=' bg-blue w-full border-t-4 border-orenge sticky z-0'>
+      <div className='container m-auto flex md:flex-row sm:flex-col gap-8 space-y-4 z-0 '>
         {/* first part */}
         <div className='w-1/3'>
           <h1 className='text-orenge text-lg font-medium'>Sales Office</h1>
