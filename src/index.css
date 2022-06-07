@@ -4,6 +4,5 @@
 @tailwind utilities;
 
 .active{
-    background: rgba(0, 0, 0, 0.201);
-
+    background: rgb(210, 227, 238);
 }
