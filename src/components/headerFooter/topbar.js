@@ -3,9 +3,9 @@ import { FaWhatsapp, FaPhoneVolume, FaEnvelope, FaFacebookF, FaInstagram } from 
 function topbar() {
   return (
 
-    <div className=" bg-orenge  h-6 shadow-lg hidden md:block">
-      <div className='container mx-auto flex flex-row justify-between items-center'>
-        <div className='flex flex-row space-x-4 items-center'>
+    <div className=" bg-orange-400  h-6 shadow-lg hidden md:block">
+      <div className='container mx-auto flex flex-row justify-between items-center content-center'>
+        <div className='flex flex-row space-x-4 items-center '>
           <div className='flex flex-row items-center'>
             <FaWhatsapp className='text-lg' color="#02458F " />
             <span className='text-sm antialiased text-white'>+971 50 289 4243</span>
