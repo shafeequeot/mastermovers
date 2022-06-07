@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FaTimes } from 'react-icons/fa'
 function Header() {
@@ -42,11 +42,11 @@ function Header() {
                     {/* large menu */}
                     <div className=' hidden md:block w-70   '>
                         <ul className='space-x-4 '>
-                            <li className='inline'><NavLink activeClassName='active' className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/'>Home</NavLink> </li>
-                            <li className='inline'><NavLink activeClassName='active' className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/about'>About us</NavLink></li>
-                            <li className='inline'><NavLink activeClassName='active' className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/reviews'>Reviews</NavLink></li>
-                            <li className='inline'><NavLink activeClassName='active' className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/services'>Services</NavLink></li>
-                            <li className='inline'><NavLink activeClassName='active' className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/contact'>Contact us</NavLink></li>
+                            <li className='inline'><NavLink  className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/'>Home</NavLink> </li>
+                            <li className='inline'><NavLink  className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/about'>About us</NavLink></li>
+                            <li className='inline'><NavLink  className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/reviews'>Reviews</NavLink></li>
+                            <li className='inline'><NavLink  className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/services'>Services</NavLink></li>
+                            <li className='inline'><NavLink  className=' hover:text-orenge hover:bg-sky-200 rounded-sm active:bg-blue p-2' to='/contact'>Contact us</NavLink></li>
                         </ul>
 
 
