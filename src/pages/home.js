@@ -1,4 +1,5 @@
 import React from 'react'
+import ClientTypes from '../components/home/sections/ClientTypes'
 import CovidUpdates from '../components/home/sections/CovidUpdates'
 import MoversInDubai from '../components/home/sections/MoversInDubai'
 
@@ -8,7 +9,7 @@ function Home() {
 
       <MoversInDubai/>
     <CovidUpdates/>
-
+<ClientTypes/>
 
     </div>
   )
