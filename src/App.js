@@ -12,6 +12,7 @@ import BookType from './components/home/bookType';
 import LocalMove from './components/home/localMove';
 import CommercialMove from './components/home/commercialMove';
 import LeavingDubai from './components/home/LeavingDubai';
+import MoveTitle from './components/home/MoveTitle';
 
 function App() {
   return (
@@ -23,9 +24,12 @@ function App() {
         <Route exact path='/' element={
           <>
             <div className='bg-gradient-to-b from-blue-800 to-blue-500 pb-4'>
-              <div className='container m-auto'>
+              <div className='container items-center m-auto flex flex-row'>
+                <MoveTitle/>
+                <div className='flex-1'>
                 <BookType />
                 <LocalMove />
+                </div>
               </div>
             </div>
             <Home />
@@ -34,9 +38,12 @@ function App() {
         <Route path='/commercial' element={
           <>
             <div className='bg-gradient-to-b from-blue-800 to-blue-500 pb-4'>
-              <div className='container m-auto'>
+            <div className='container items-center m-auto flex flex-row'>
+                <MoveTitle/>
+                <div className='flex-1'>
                 <BookType />
                 <CommercialMove />
+                </div>
               </div>
             </div>
             <Home />
@@ -45,9 +52,12 @@ function App() {
         <Route path='/international' element={
           <>
             <div className='bg-gradient-to-b from-blue-800 to-blue-500 pb-4'>
-              <div className='container m-auto'>
+            <div className='container items-center m-auto flex flex-row'>
+                <MoveTitle/>
+                <div className='flex-1'>
                 <BookType />
                 <LeavingDubai />
+                </div>
               </div>
             </div>
             <Home />

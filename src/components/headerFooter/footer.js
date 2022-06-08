@@ -6,7 +6,7 @@ import  {RiFacebookCircleLine, RiInstagramLine, RiLinkedinFill} from 'react-icon
 
 function Footer() {
   return (
-    <div className=' bg-blue-800 w-full border-t-4 border-orange-400 bottom-0 fixed'>
+    <div className=' bg-blue-800 w-full border-t-4 border-orange-400'>
       <div className='container m-auto flex md:flex-row sm:flex-col gap-8 space-y-4 '>
         {/* first part */}
         <div className='w-1/3'>

@@ -11,7 +11,7 @@ function Header() {
 
         <>
 
-            <nav className="sticky top-0  bg-blue-800  dark:bg-gray-900 shadow-md h-16 ">
+            <nav className="sticky top-0 z-30 bg-white   shadow-md h-16 ">
                 <div className='container mx-auto flex flex-row px-2 sm:px-4 py-2.5 justify-between items-center'>
 
                     <div className=' flex flex-row  w-30'>
@@ -41,7 +41,7 @@ function Header() {
 
                     {/* large menu */}
                     <div className=' hidden md:block w-70   '>
-                        <ul className='space-x-4 text-white'>
+                        <ul className='space-x-4 text-blue-800'>
                             <li className='inline'><NavLink activeClassName='active' className=' hover:text-blue-800 hover:bg-sky-200 rounded-sm active:bg-blue-800 p-2' to='/'>Home</NavLink> </li>
                             <li className='inline'><NavLink activeClassName='active' className=' hover:text-blue-800 hover:bg-sky-200 rounded-sm active:bg-blue-800 p-2' to='/about'>About us</NavLink></li>
                             <li className='inline'><NavLink activeClassName='active' className=' hover:text-blue-800 hover:bg-sky-200 rounded-sm active:bg-blue-800 p-2' to='/reviews'>Reviews</NavLink></li>
