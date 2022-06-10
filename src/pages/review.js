@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import { SubHead } from '../components/Common/CommonItems'
 import CommentBox from '../components/reviews/CommentBox'
 import CustReviews from '../components/reviews/custReviews'
 import ReviewTexts from '../components/reviews/ReviewTexts'
 import Fireapp from '../components/firebase/config'
 
-import { getFirestore, collection, getDocs, query, onSnapshot, doc } from 'firebase/firestore';
+import { getFirestore, collection, query, onSnapshot,  orderBy, limit } from 'firebase/firestore';
 
 
 
+const db = getFirestore(Fireapp)
 
 
  function Reviews () {
@@ -17,9 +17,10 @@ import { getFirestore, collection, getDocs, query, onSnapshot, doc } from 'fireb
 
 useEffect(()=>{
 
-  // collection(db, 'reviews')
-  const q = query(collection(db, "reviews"))
+  const q = query(collection(db, "reviews"),orderBy("date", "desc"), limit(24))
+
   onSnapshot(q,(db),(querySnapshot)=>{
+    // const lastVisible = querySnapshot.docs[querySnapshot.docs.length-1];
     setCOmments(
     querySnapshot.docs.map((doc) => (
       { id: doc.id,
@@ -33,9 +34,7 @@ useEffect(()=>{
 },[])
 
 
-  const db = getFirestore(Fireapp)
 
-console.log(commets)
   return (
 
 

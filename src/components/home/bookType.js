@@ -11,13 +11,13 @@ function BookType() {
                <p> Local Move </p>
             </NavLink>
           
-            <NavLink to='/commercial'  className='bg-white  z-10 text-gray-500 rounded-lg shadow-xl p-3 text-sm justify-center flex flex-col text-center items-center space-y-3'>
-               <GiBusDoors color='gray' className='text-2xl'/>            <p> Commercial Move </p>
-            </NavLink>
-
             <NavLink to='/international' className='bg-white z-10 text-gray-500 rounded-lg shadow-xl p-3 justify-center text-sm flex flex-col text-center items-center space-y-3'>
                <GiDiscGolfBag  color='gray' className='text-2xl'/>
                 <p>Leaving UAE</p>
+            </NavLink>
+         
+            <NavLink to='/commercial'  className='bg-white  z-10 text-gray-500 rounded-lg shadow-xl p-3 text-sm justify-center flex flex-col text-center items-center space-y-3'>
+               <GiBusDoors color='gray' className='text-2xl'/>            <p> Commercial Move </p>
             </NavLink>
         </div>
 

@@ -52,7 +52,7 @@ function LocalMove() {
         </div>
         <div className='flex w-full mt-5  justify-center'>
 
-        <button className='bg-blue-800 p-3 hover:bg-orange-400 rounded text-white'>Calculate</button>
+        <button className='bg-blue-800 p-3 hover:bg-orange-400 rounded w-28 text-white'>next</button>
         </div>
 
       </form>

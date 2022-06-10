@@ -19,6 +19,7 @@ function CommentBox() {
   const submit = ()=>{
 
     addDoc(collection(db, 'reviews'),{
+      date: new Date(),
       star: star,
      comment: comment ,
       name: name,
